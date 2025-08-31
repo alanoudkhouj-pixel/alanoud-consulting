@@ -1,4 +1,10 @@
+
 // Simple front-end booking logic using localStorage as a fake DB
+const EMAILJS_PUBLIC_KEY  = "haUxQpKy_9ah-_XCY";
+const EMAILJS_SERVICE_ID  = "service_m5pqbsi";     // ← اكتبي الـ Service ID اللي عندك
+const EMAILJS_TEMPLATE_ID = "__ejs-test-mail-service__";
+const ADMIN_EMAIL         = "alanoud.khouj@gmail.com";
+
 const modal = document.getElementById('bookingModal');
 const confirmModal = document.getElementById('confirmationModal');
 const errorModal = document.getElementById('errorModal');
